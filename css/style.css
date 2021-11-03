@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Ubuntu, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: url(../img/tcross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+input {
+  border: none;
+  outline: none;
+  display: block;
+  box-sizing: content-box;
+  width: 75%;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: 4px 7px 8px -2px rgba(0,0,0,0.7);
+  padding: 2px 5px;
+  font-size: 16pt;
+}
+
+input::placeholder {
+  color: #708090;
+}
+
+.principal {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 30%;
+  height: 400px;
+}
+
+.principal h2 {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.principal h2::after {
+  content: '';
+  display: block;
+  margin: 10px auto;
+  border-bottom: 3px solid #fff;
+  width: 25%;
+}
+
+.principal input {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.principal input[type='submit'] {
+  background: linear-gradient(90deg, rgba(38,68,173,1) 23%, rgba(40,76,203,1) 72%, rgba(42,89,250,1) 100%);
+  color: #fff;
+}
