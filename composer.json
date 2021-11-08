@@ -1,0 +1,17 @@
+{
+    "name": "vncs1/vw-projeto",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vinicius.flag",
+            "email": "vinicius.bandeira.goncalves@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "3.0"
+    }
+}

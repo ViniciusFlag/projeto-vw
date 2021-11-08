@@ -1,0 +1,33 @@
+<?php
+namespace app\controller;
+
+use app\core\Controller;
+require_once('../app/core/Controller.php');
+
+class PagesController extends Controller
+{
+  public function __construct()
+  {
+  
+  }
+
+  public function login() 
+  {
+    $this->load('login/main');
+  }
+
+  public function localizaRacks() 
+  {
+    $this->load('localizaRacks/main');
+  }
+  public function cadastroRacks() 
+  {
+    $this->load('cadastroRacks/main');
+  }
+  public function relatorio() 
+  {
+    $this->load('relatorio/main');
+  }
+}
+
+?>

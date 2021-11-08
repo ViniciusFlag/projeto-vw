@@ -1,0 +1,126 @@
+:root {
+  --main-bg-color: #edf0f5;
+}
+
+
+.max-width {
+  max-width: 1144px;
+  width: 100%;
+}
+
+.map-container {
+  display: flex;
+}
+
+.center-screen {
+  margin: 0 auto;
+}
+
+.bg-white {
+  background-color: #FFF;
+}
+
+.padding {
+  padding: 10px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #2970DB !important;
+}
+
+.side {
+  width: 15%;
+  margin-right: 10px;
+  justify-content: center;
+  height: 80vh;
+}
+
+.map {
+  width: 85%;
+  height: 80vh;
+}
+
+.logo {
+  display: block;
+  width: 100px;
+}
+
+/* login */
+.body {
+  height: 100vh;
+  background-image: url(../img/tcross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.input {
+  border: none;
+  outline: none;
+  display: block;
+  box-sizing: content-box;
+  width: 75%;
+  height: 40px;
+  border-radius: 12px;
+  box-shadow: 4px 7px 8px -2px rgba(0,0,0,0.7);
+  padding: 2px 5px;
+  font-size: 16pt;
+}
+
+input::placeholder {
+  color: #708090;
+}
+
+.principal {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 30%;
+  height: 400px;
+}
+
+.principal h2 {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.principal h2::after {
+  content: '';
+  display: block;
+  margin: 10px auto;
+  border-bottom: 3px solid #fff;
+  width: 25%;
+}
+
+.principal .input {
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.principal .input-buttom {
+  background-image: linear-gradient(to right, #314755 0%, #26a0da  51%, #314755  100%)
+}
+
+.principal .input-buttom {
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+ }
+
+ .principal .input-buttom:hover {
+   background-position: right center;
+   color: #fff;
+   text-decoration: none;
+ }
+
