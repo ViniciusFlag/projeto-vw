@@ -20,9 +20,15 @@ class PagesController extends Controller
   {
     $this->load('localizaRacks/main');
   }
+
+  
   public function cadastroRacks() 
   {
     $this->load('cadastroRacks/main');
+  }
+  public function editarRacks() 
+  {
+    $this->load('cadastroRacks/editar');
   }
   public function relatorio() 
   {

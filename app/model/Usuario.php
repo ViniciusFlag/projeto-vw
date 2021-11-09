@@ -30,7 +30,7 @@ class Usuario
     $sql = $pdo->prepare("SELECT usu_codigo FROM usuario WHERE usu_usuario = :usuario AND usu_senha = :senha");
 
     $sql->bindValue(":usuario", $usuario);
-    $sql->bindValue(":senha", $senha);
+    $sql->bindValue(":senha", md5($senha));
     $sql->execute();
 
     if($sql->rowCount() > 0) {
@@ -38,9 +38,9 @@ class Usuario
       session_start();
       $_SESSION['usu_codigo'] = $dado['usu_codigo'];
 
-      return true;
+      return true; //logado com sucesso
     } else {
-
+      return false; //não foi possivel logar
     }
   }
 }

@@ -124,3 +124,6 @@ input::placeholder {
    text-decoration: none;
  }
 
+ .btn-pesquisar {
+   margin-top: 60px;
+ }
