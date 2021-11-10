@@ -26,10 +26,17 @@ class PagesController extends Controller
   {
     $this->load('cadastroRacks/main');
   }
+
   public function editarRacks() 
   {
     $this->load('cadastroRacks/editar');
   }
+  
+  public function exibirRacks() 
+  {
+    $this->load('exibirRacks/exibir');
+  }
+
   public function relatorio() 
   {
     $this->load('relatorio/main');

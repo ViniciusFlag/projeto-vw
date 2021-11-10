@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="{{BASE}}vendor/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="{{BASE}}css/style.css" />
 
+    <script src="https://kit.fontawesome.com/ff2c2eeb4f.js" crossorigin="anonymous"></script>
+
     <title>
       {%block title%}{%endblock%}
     </title>

@@ -27,6 +27,8 @@
         <button class="btn btn-primary btn-pesquisar">Pesquisar</button>
       </div>
     </div>
+
+    {%include 'cadastroRacks/listar.twig.php'%}
   </div>
 </div>
 <script>
